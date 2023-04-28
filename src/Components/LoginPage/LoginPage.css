@@ -1,0 +1,39 @@
+.loginpage_rightcomponent {
+    height: 380px;
+    width: 350px;
+    border-radius: 2%;
+    border: 2px solid #dbdbdb;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    background-color: white;
+
+}
+
+.loginpage__text {
+    width: 258px;
+    height: 36px;
+    margin: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    padding-left: 10px;
+
+}
+
+.login__button {
+    width: 270px;
+    height: 36px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    border: 1px solid #0395f6;
+    background-color: #0395f6;
+    color: white;
+
+}
+
+.loginpage__logo {
+    width: 175px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
