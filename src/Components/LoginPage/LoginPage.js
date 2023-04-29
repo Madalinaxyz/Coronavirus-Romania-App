@@ -12,7 +12,9 @@ class LoginPage extends Component {
         return (
             <div className="background-image">
                 <Grid container>
-                    <Grid item xs={6} className="grid1">
+                    <Grid item xs={4}>
+                    </Grid>
+                    <Grid item xs={4} className="grid1">
                         <div className="loginpage__main">
                             <div>
                                 <div className="loginpage_rightcomponent">
@@ -25,9 +27,8 @@ class LoginPage extends Component {
                                 </div>
                             </div>
                         </div>
-
                     </Grid>
-                    <Grid item xs={6} className="grid2">
+                    <Grid item xs={4} className="grid2">
                     </Grid>
                 </Grid>
 
