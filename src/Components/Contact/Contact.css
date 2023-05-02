@@ -1,0 +1,49 @@
+.contactpage_main {
+    height: 400px;
+    width: 500px;
+    border: 2px solid #dbdbdb;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: white;
+
+
+}
+
+.contact_us {
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.contactpage__text {
+    width: 258px;
+    height: 40px;
+    margin: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    padding-left: 10px;
+
+}
+
+.contactpage_message {
+    width: 258px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    padding-left: 10px;
+
+}
+
+.contactpage__button {
+    width: 270px;
+    height: 36px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    border: 1px solid #0395f6;
+    background-color: #0395f6;
+    color: white;
+
+}
