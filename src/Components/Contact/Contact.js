@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import Grid from '@mui/material/Grid';
 import '../Contact/Contact.css';
-import Covid_vaccine from '../../images/covid_vaccine.jpg';
 import Covid_background from '../../images/001c0614-1600.png';
 const styles = {
     paperContainer: {

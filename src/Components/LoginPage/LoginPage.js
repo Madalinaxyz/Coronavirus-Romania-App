@@ -13,8 +13,8 @@ export const LoginPage = () => {
                     <Grid item xs={4} className="grid1">
                         <div className="loginpage__main">
                             <div>
-                                <div className="loginpage_rightcomponent">
-                                    <img className="loginpage__logo" src={logo} width="100px" />
+                                <div className="loginpage_submain">
+                                    <img className="loginpage__logo" src={logo} width="100px" alt="logo"/>
                                     <div className="loginPage__signin">
                                         <input className="loginpage__text" type="text" placeholder="Phone number,email or username" />
                                         <input className="loginpage__text" type="password" placeholder="Password" />

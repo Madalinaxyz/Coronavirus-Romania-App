@@ -31,7 +31,7 @@ function NavBar(props) {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
-                <img src={CRISPER} />
+                <img src={CRISPER} alt="CRISPER" />
             </Typography>
             <Divider />
             <List>
@@ -69,7 +69,7 @@ function NavBar(props) {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        <img src={CRISPER} width="200px" />
+                        <img src={CRISPER} width="200px" alt="CRISPER"/>
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (
