@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -9,12 +9,9 @@ import Code from '../../images/code.jpg';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-class Home extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
-    render() {
+
+export const Home = () => {
+    
         return (
             <div>
                 <NavBar />
@@ -70,6 +67,6 @@ class Home extends Component {
                 </Typography>
             </div>
         );
-    }
+    
 }
-export default Home;
+

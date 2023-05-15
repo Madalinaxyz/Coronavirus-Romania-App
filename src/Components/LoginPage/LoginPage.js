@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../LoginPage/LoginPage.css';
 import Grid from "@mui/material/Grid";
 import logo from '../../images/logo.png';
 
-class LoginPage extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
-    render() {
+export const LoginPage = () => {
+    
         return (
             <div className="background-image">
                 <Grid container>
@@ -34,6 +30,5 @@ class LoginPage extends Component {
 
             </div>
         );
-    }
+
 }
-export default LoginPage;

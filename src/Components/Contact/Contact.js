@@ -13,12 +13,8 @@ const styles = {
         backgroundPosition: 'center'
     }
 };
-class Contact extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
-    render() {
+export const Contact=()=>{
+    
         return (
             <div style={styles.paperContainer}>
                 <NavBar />
@@ -44,11 +40,7 @@ class Contact extends Component {
 
                 </Grid>
 
-
-
-
             </div>
         );
-    }
+    
 }
-export default Contact;
