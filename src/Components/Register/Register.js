@@ -32,7 +32,7 @@ export const Register= () => {
   return (
     <div className="background-image">
     <Grid container>
-        <Grid item xs={4}></Grid>
+        <Grid item xs={4} ></Grid>
 
     <Grid item xs={4} >
         <form onSubmit={handleSubmit(onSubmit)} className="register_main">
@@ -57,12 +57,12 @@ export const Register= () => {
         {...register("confirmPassword")}
       />
       <p>{errors.confirmPassword?.message}</p>
-     <button className="login__button">Submit</button>
+     <button className="register__button">Submit</button>
 </div>
     </div>
     </form>
     </Grid>
-     <Grid item xs={4}></Grid>
+     <Grid item xs={4} ></Grid>
     </Grid>
     </div>
    

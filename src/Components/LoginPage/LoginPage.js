@@ -2,6 +2,7 @@ import React from 'react';
 import '../LoginPage/LoginPage.css';
 import Grid from "@mui/material/Grid";
 import logo from '../../images/logo.png';
+import {Link} from 'react-router-dom';
 
 export const LoginPage = () => {
     
@@ -19,6 +20,10 @@ export const LoginPage = () => {
                                         <input className="loginpage__text" type="text" placeholder="Phone number,email or username" />
                                         <input className="loginpage__text" type="password" placeholder="Password" />
                                         <button className="login__button">Sign In</button>
+                                        <p className="signup">
+                                        Don't have an account? <Link to="/register">Sign up</Link>
+                                        </p>
+
                                     </div>
                                 </div>
                             </div>

@@ -4,7 +4,7 @@ import {Home}from '../src/Components/Home/Home'
 import {LoginPage} from '../src/Components/LoginPage/LoginPage'
 import {Contact} from '../src/Components/Contact/Contact'
 import {Register} from  '../src/Components/Register/Register'
-
+import { ExposureSites } from './Components/Exposure-sites/Exposure_sites';
 function App() {
   return (
     <BrowserRouter>
@@ -13,6 +13,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register/>}/>
+        <Route path="/exposure-sites" element={<ExposureSites/>}/>
       </Routes>
     </BrowserRouter>
   );
