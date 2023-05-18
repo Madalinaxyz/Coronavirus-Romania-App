@@ -6,6 +6,8 @@ The basic idea behind differential privacy is to add a controlled amount of rand
 My inspiration for the project is the Australia Covid-19 Real-time Information System for Preparedness and Epidemic Response.Technologies used for the project are React with Javascript on frontend and Spring Boot on backend.
 The starting page contains the authentication,where the user logins with the credentials or creates a new account.
 ![image](https://github.com/Madalinaxyz/Coronavirus-Romania-App/assets/62958497/ebe69a39-15e1-4471-8993-5adca1e8b399)
+Register page
+![image](https://github.com/Madalinaxyz/Coronavirus-Romania-App/assets/62958497/6588d0d5-96a9-49d6-9165-78aa96866586)
 
 On the main page I created a menu,which contains the home page,links to the data science and sites of infection,alert message system and about us page.
 
